@@ -1,0 +1,75 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{epstopdf}
+\epstopdfsetup{update} % only regenerate pdf files when eps file is newer
+\title{Background-Free imaging of gold nanorods in live cells}
+\author{Aquiles Carattino \and Michel Orrit}
+
+\begin{document}
+\maketitle
+\abstract{This is the abstract}
+\section{Introduction}
+This is an introduction
+
+\section{Experimental method}
+A normal confocal setup is employed; it is possible to change from $532\,\nm$ to
+$633\,nm$ excitation laser
+
+\section{Results and discussion}
+The first set of experiments are aimed to characterize the luminescence emission
+of gold nanorods. For this a suspension of particles is spincasted on a clean
+coverslip, assuring that there is no formation of clusters and that individual
+particles can be resolved. Figure \ref{fig:spectra_rod} shows the typical
+spectra of a gold nanorod while excited with $532nm$ (green curve) and with
+$633nm$ (red curve); the spectra was normalized at $650nm$ to show the overlap
+between both. For the latter, the emission with wavelength shorter than the
+excitation wavelength of the laser corresponds to the anti-Stokes emission and is the
+portion that will be used for the single-particle detection with high background
+rejection. The inset shows the linear behavior of this emission intensity while
+varying the excitation intensity, assuring its one photon nature.
+
+By introducing a $633nm$ short-pass filter (Semrock Razor Edge) in a normal
+confocal setup it is possible to observe only the anti-stokes part of the
+emission spectrum, rejecting entirely any background that may arise from the
+self fluorescence of the cell. As a first approach We used a sample prepared as
+described before with cells deposited on top. This was done in order to have
+immobilized particles, allowing to compare the difference between the signal
+obtained from the standard configuration with a long-pass (LP) filter and with a
+short-pass (SP) filter and to obtain the spectra of the particles. 
+
+Figure \ref{fig:rod-in-glass-cell} shows the results obtained in such
+conditions. The image obtained with the shortpass
+(\ref{fig:rod-in-glass-cell}.A) shows that the background disappears entirely;
+comparing with \ref{fig:rod-in-glass-cell}.B, that was taken with a longpass
+filter, already shows the significant improve of this technique. The different
+intensities for different rods arises from different plasmon peak positions. The
+insets in both figures show line cuts through the same particle; it can readily
+be seen that in the case of the shortpass filter, the background is close to 
+dark count rate of the detector. 
+
+%\ref{fig:rod-in-cell}.A shows the confocal scan of an area of $10\,\mu m \times
+%#10\,\mu m$ using the SP filter, while in \ref{fig:rod-in-cell}.B the same area
+%is observed using a long-pass filter. Each bright spot corresponds to a single
+%#rod, as could be determined by acquiring the spectra. Figure
+%#\ref{fig:rod-in-cell}.C shows white light transmission image; the square marks
+%#the position where the scan was done. Figure \ref{fig:rod-in-cell}.D shows
+%line-cuts across one particle; the dashed line being the result corresponding
+%#to the LP filter while the full line by using the SP. 
+
+From this Figures it can readily be seen that the signal-to-background while
+imaging with the short-pass filter for a fixed intensity is limited by
+the dark counts of the detector (in this case $~150cps$) and the values can be
+confirmed by taking timetraces of the APD on top of the particle and on the
+background.
+
+
+
+
+
+\section{Conclusions}
+
+
+\end{document}
