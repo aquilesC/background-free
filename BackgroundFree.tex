@@ -6,70 +6,202 @@
 \usepackage{epstopdf}
 \epstopdfsetup{update} % only regenerate pdf files when eps file is newer
 \title{Background-Free imaging of gold nanorods in live cells}
-\author{Aquiles Carattino \and Michel Orrit}
+\author{Aquiles Carattino \and \and Veer Keizer \and Michel Orrit}
 
 \begin{document}
 \maketitle
 \abstract{This is the abstract}
 \section{Introduction}
-This is an introduction
+In recent years metallic nanoparticles received a fair amount of attention
+because of their optical properties. The first to mention is their great
+stability, specially when compared to fluorescent dyes: nanoparticles do not
+blink nor bleach, making them ideal for labeling tracking biological samples
+over extended periods of time. 
+
+Another interesting property of gold nanoparticles is that they exhibit a
+collective oscillation of surface electrons called the plasmon. This oscillation
+will exhibit a resonance that is strongly dependent on the shape of the
+particles. For instance spheres will have a resonance at around $540\,nm$ and if
+they get elongated (i.e. they become rods) the resonance can be shifted down to
+over $800\,\nm$. It is important to note that this tuning can be easily achieved
+at the moment of the synthesis with a narrow distribution of sizes. 
+
+The plasmon is responsible for an enhanced cross section of the particle in a
+specific wavelength range but it is also responsible for an enhanced
+emission in the same region. This overlap between the excitation spectra and the
+emission spectra of nanoparticles makes them behave in a complete different way
+than molecules in which a Stokes-shift is easy to identify and exploit. 
+
+The luminescence of rods, for instance, can be exited off-resonance with a
+short-wavelength laser (for instance at $532\,\nm$) and the emission will be
+mostly concentrated close to the plasmon resonance. This is the closer picture
+to a single-molecule experiment, in which the Stokes-shifted emission can be
+easily detected by using a long pass filter. The drawback, however, is that the
+cross-section of the particle is much smaller at this wavelengths. The other
+alternative is to excite at the plasmon resonance which will yield a much
+stronger absorption but at the expense of filtering out much of the emission,
+since the Stokes-shift is relatively small. 
+
+This works focuses in the exploitation of another kind of emission that is
+surprisingly efficient in gold nanoparticles, the anti-Sokes luminescence. In
+this case when exciting in resonance with the plasmon, a short pass filter can
+be introduced for observing only the emission at higher energies. The main
+advantage of this procedure is that it allows to highly reduce the background
+arising from self-fluorescence and Raman-scattering (anti-Stokes Raman will also
+be present but to a much smaller extent.) 
+
+Other techniques normally employed in microscopy for achieving a lower
+background include two-photon excitation, photothermal detection or heavy image analysis.
+The first implies access to a pulsed laser, the second needs the
+correct alignment ad overlap of lasers with different wavelengths and the latter
+normally requires the proper choosing of dyes (and doesn't work with
+nanoparticles since they do not blink.) Exploiting the anti-Sokes luminescence
+only needs a suitable shortpass filter, hence can readily be achieved in any
+normal confocal or wide-field microscope. 
+
+The mechanism for explaining this emission is not fully understood as for now.
+Different papers propose alternative explanations that can be summarized as
+follows: an absorbed photon generates an electron-hole pair with an energy
+difference equivalent to the energy of the excitation. After an interaction with
+the gold lattice (i.e. with a phonon) either the hole gives energy to it or an
+electron receives energy from it. This will increase the gap between electron
+and hole thus exhibiting an emission with a shorter wavelength (higher energy).
+A schematic of this process can be seen in Figure \ref{fig:anti-Stokes-process},
+where the Stokes-shifted emission is also explained via a relaxation of the
+electron-hole pair through interactions with the lattice. 
+
+Even if the mechanism is subject to a fair amount of debate, it doesn't hinter
+the possibility of exploiting it for imaging purposes. It was shown before that
+the quantum yield of the anti-Stokes emission is smaller than the one of its
+counterpart the Stokes-shifted, but the reduction of background for equivalent
+excitation powers makes the signal-to-background ratio much higher and allows
+the detection of single nanoparticles even in high-background situations as may
+be a stained cell. 
 
 \section{Experimental method}
-A normal confocal setup is employed; it is possible to change from $532\,\nm$ to
-$633\,nm$ excitation laser
+The core of this work focuses in the employment of a combination of a notch
+filter and a  Smerock $633\,\nm$ short pass filter in a home built confocal
+microscope. The objective is an oil-immersion Olympus 60X NA 1.4 that allows a
+great efficiency in exciting the particles and collecting their emission. An APD
+is employed the detection and a spectrometer Acton 500i for measuring the
+emission spectra of the particles.
+
+The samples are prepared by spin coating a suspension of gold nanorods into a
+clean coverslip as described elsewhere. The employed rods have a nominal size of
+$25\,\nm$x$60\,\nm$ hence the plasmon resonance roughly coincides with a HeNe
+laser with wavelength $633\,\nm$. A second laser with wavelength $532\,\nm$ is
+employed for exciting the luminescence of the particles and collecting the full
+plasmonic spectrum and corroborate that they are single particles. 
+
+For proving that the technique is well suited for imaging of particles in
+biological conditions, U2OS cells where deposited on top of the samples. This
+allows to characterize the emission from the particles avoiding their diffusion
+(acquiring spectra takes several seconds). It may be argued that this condition
+is not exactly imaging of rods inside a cell, but resembles the condition of
+imaging in cell membranes without going into the trouble of the
+functionalization of the particles. For tracking of diffusing particles inside
+cells going to a wide-field setup is convenient and we show that is possible to
+achieve with the anti-Stokes imaging. 
 
 \section{Results and discussion}
-The first set of experiments are aimed to characterize the luminescence emission
-of gold nanorods. For this a suspension of particles is spincasted on a clean
+The firs step in the experiments is to characterize the luminescence emission of
+gold nanorods. For this a suspension of particles is spincasted on a clean
 coverslip, assuring that there is no formation of clusters and that individual
 particles can be resolved. Figure \ref{fig:spectra_rod} shows the typical
-spectra of a gold nanorod while excited with $532nm$ (green curve) and with
-$633nm$ (red curve); the spectra was normalized at $650nm$ to show the overlap
-between both. For the latter, the emission with wavelength shorter than the
-excitation wavelength of the laser corresponds to the anti-Stokes emission and is the
-portion that will be used for the single-particle detection with high background
-rejection. The inset shows the linear behavior of this emission intensity while
-varying the excitation intensity, assuring its one photon nature.
+spectra of a gold nanorod while excited with $532nm$ (green curve). In this case
+it can be clearly seen the full spectrum of the longitudinal plasmon with it's
+peak at $620\,\nm$. If the particle is excited at, or close to, the resonance,
+the shape of the spectrum changes drastically: the red curve shows the Stokes
+shifted emission while exciting at $633\,\nm$ (the vertical black line). It was
+normalized to show the overlap with the curve obtained with the $532\,\nm$
+laser. The blue curve shows the anti-Stokes emission at shorter wavelengths
+(higher energies) and it can be observed that the shape (even with the same
+normalization constant as for the Stokes case) doesn't resemble at all to the
+plasmon resonance. 
 
-By introducing a $633nm$ short-pass filter (Semrock Razor Edge) in a normal
-confocal setup it is possible to observe only the anti-stokes part of the
-emission spectrum, rejecting entirely any background that may arise from the
-self fluorescence of the cell. As a first approach We used a sample prepared as
-described before with cells deposited on top. This was done in order to have
-immobilized particles, allowing to compare the difference between the signal
-obtained from the standard configuration with a long-pass (LP) filter and with a
-short-pass (SP) filter and to obtain the spectra of the particles. 
+The dashed curves in Figure \ref{fig:spectra_rod} show the non normalized
+emission from the nanoparticle. This allows to have an insight of the obtainable
+signal with an excitation power in the back frocal plane of the objective of
+$100\,\mu W$. It has to be noted that the anit-Stokes emission is greatly
+enhanced by the plasmon position, therefore exciting in the red wing of the
+plasmons gives the highest blue-shifted emission and the opposite for the
+red-shited one. This means that this particular particle shows one of the best
+attainable ratios anti-Stokes/Stokes emission. 
 
-Figure \ref{fig:rod-in-glass-cell} shows the results obtained in such
-conditions. The image obtained with the shortpass
-(\ref{fig:rod-in-glass-cell}.A) shows that the background disappears entirely;
-comparing with \ref{fig:rod-in-glass-cell}.B, that was taken with a longpass
-filter, already shows the significant improve of this technique. The different
-intensities for different rods arises from different plasmon peak positions. The
-insets in both figures show line cuts through the same particle; it can readily
-be seen that in the case of the shortpass filter, the background is close to 
-dark count rate of the detector. 
+From here on we are focusing in the anti-Stokes emission, since this will
+provide the best background rejection. The inset of the same Figure shows the
+linear behavior of this emission intensity while varying the excitation
+intensity, assuring its one photon nature. The same is observed regardless of
+the plasmon peak position and for both the Stokes and the anti-Stokes sides.
 
-%\ref{fig:rod-in-cell}.A shows the confocal scan of an area of $10\,\mu m \times
-%#10\,\mu m$ using the SP filter, while in \ref{fig:rod-in-cell}.B the same area
-%is observed using a long-pass filter. Each bright spot corresponds to a single
-%#rod, as could be determined by acquiring the spectra. Figure
-%#\ref{fig:rod-in-cell}.C shows white light transmission image; the square marks
-%#the position where the scan was done. Figure \ref{fig:rod-in-cell}.D shows
-%line-cuts across one particle; the dashed line being the result corresponding
-%#to the LP filter while the full line by using the SP. 
+Polarization analysis of the emission show that both emissions happen along the
+longitudinal axis of the particle. This is a great indication that the emission
+is of a plasmonic nature, as was argued in the introduction and was pointed out
+in different works. Figure \ref{fig:emission_peak_position} shows the dependence
+of the emission intensity as a function of the plasmon peak position for both
+emissions. The inhomogeinity observed for both emissions can be attributed to a
+distribution of sizes of the sample (bigger particles will have a bigger cross
+section). It is possible to observe, however, that the maximum emission
+intensity for the anti-Stokes appears for those particles with the plasmon
+slightly blue-shifted from the laser wavelength, while the opposite is observed
+for the Stokes emission. This means that there is a trade off between the
+excitation efficiency and the collection efficiency: exciting in perfect
+resonance is more efficient, but the filters will eliminate the most significant
+part of the emission. Exciting off-resonance even if with a smaller
+cross-section, improves the collection efficiency. Therefore the particle
+described earlier, in Figure \ref{fig:spectra_rod} fulfills this condition for
+maximum efficiency. 
 
-From this Figures it can readily be seen that the signal-to-background while
-imaging with the short-pass filter for a fixed intensity is limited by
-the dark counts of the detector (in this case $~150cps$) and the values can be
-confirmed by taking timetraces of the APD on top of the particle and on the
-background.
+Figure \ref{fig:shortpass_longpass} shows two raster scans of the same
+$10x10\,\mu m^2$ of the sample under the same irradiation conditions; the first
+one shows the Stokes emission and the other the anti-Stokes. It can readily be
+seen that the same particles are observed with both sets of filters.
+As explained earlier a bright particle with the long pass me be much dimer with
+the short pass and vice versa because of a different plasmon peak position. It
+is important to note the difference in background between both techniques. For
+the anti-Stokes a lot of bright pixels are present and entire regions show a
+much higher count rate, coming from different parts of the cell above the
+observed area. In the case of the anti-Stokes, this bursts disappear but still
+there are some regions with higher count rates than the average background.  We
+attribute this to anti-Stokes Raman arising from organelles and is a proper
+feature of cells; repeating the same experiment with the rods immersed only in
+water does not show any background above dark counts from the detector.
 
-
-
-
+It is important for comparing the results obtained with the Stokes and the
+anti-Stokes emission to study the dependence of the signal and the background as
+a function of excitation power. Figure \ref{fig:power_intensity} shows exactly
+this for a particle which plasmon peak position was on top of the laser
+wavelength (not favouring either kind of luminescence). For the Stokes side
+(red curves) a steady increase in signal is accompanied by an increase in
+background, hence the ratio saturates even for low powers. The anti-Stokes
+(blue-curves) however shows a much steeper increase of the signal as compared
+to the background. This sadly cannot be extrapolated to even higher excitation
+intensities because would start reshaping the particles. 
 
 \section{Conclusions}
+In this work we have proved that the anti-Sokes emission arising from the
+excitation in (or close to) the plasmon resonance of a gold nanorod can be
+exploited to image them in biological conditions. The comparison between the
+Stokes and anti-Stokes was possible by using immobilized particles, but this
+proves that the same technique can be employed for imaging particles in fixed
+cells, for example. 
+
+Extending this technique to wide-field should be possible considering the powers
+employed in this work. EMCCDs should provide enough gain as to easily detect
+single nanoparticles, while at the same time the background is considerable low
+(or negligible for low powers). This extention would provide a way of doing
+tracking at higher framerates than achivable by confocal scanning. 
+
+There is however a drawback in the techique that is the lower countrate as
+compared to the Stokes emission. For doing localization it is usually better to
+have a higher countrate than a better signal-to-background ratio. On the other
+hand this work shows the possibility of observing particles in less favorable
+conditions, as may be a stained cell, or smaller particles which will have
+smaller cross sections but still be brighter than the background. 
+
+It is important to remember that this anti-Stokes emission will be present also
+in two-photon experiments, and depending on the set of filters employed it may
+not be negligible. There are many paths to explore
 
 
 \end{document}
