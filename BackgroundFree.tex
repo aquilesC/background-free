@@ -37,7 +37,7 @@
 \author{Michel Orrit}
 \email{orrit@physics.leidenuniv.nl}
 \affiliation[Leiden]
-{Huygens-Kamerlingh Onnes, Leiden, The Netherlands}
+{Huygens-Kamerlingh Onnes Lab, 2300RA Leiden, The Netherlands}
 
 \title{Background-free imaging of gold nanorods through detection of
 anti-Stokes emission}
@@ -51,9 +51,9 @@ anti-Stokes emission}
 High-resolution microscopy has become an indispensable tool for studying
 biological samples both in vitro and in vivo\cite{Moerner2007}.
 Fluorescent organic dyes are commonly employed to such ends because of their
-reduced size and high quantum yield. Fluorophores however have an inherent
-constrain in the possible observation time, since molecules bleach under intense
-long irradiation. Even dyes with a high photo-stability can not be imaged for
+reduced size and high quantum yield. Fluorophores, however, have an inherent
+constrain in the possible observation time, since molecules eventually bleach
+under intense irradiation. Even dyes with a high photo-stability cannot be imaged for
 longer than few tens of seconds. Gold nano-particles on the other hand are
 almost indefinitely stable and open up many original applications including
 photothermal therapy and imaging.
@@ -61,12 +61,12 @@ photothermal therapy and imaging.
 Gold nanoparticles do not blink nor bleach, making them ideal candidates for
 labeling, tracking and manipulating biological samples over extended periods of
 time. Moreover it has been shown that they don't interfere with cells'
-functioning, allowing not only \em{in vitro} but also \em{in vivo} studies.
-Compared to organic dyes, gold nanoparticles are much larger and they have an
-emission quantum yield several orders of magnitude smaller. This is compensated
-by an absorption cross section several orders of magnitude larger than that of
-molecues, rendering the brightness of both particles and fluorescent molecules
-comparable.
+functioning\cite{Lewinski2008}, allowing not only \em{in vitro} but also \em{in
+vivo} studies. Compared to organic dyes, gold nanoparticles are much larger and
+they have an emission quantum yield of the order of $10^{-6}$. This minute value
+is compensated by an absorption cross section several orders of magnitude larger
+than that of molecules, therefore the brightness of both particles and
+fluorescent molecules is comparable.
 
 Since the cross section of the particles scales as their volume, detecting
 smaller particles in presence of background requires a different approach.
@@ -74,25 +74,24 @@ Several techniques have been proposed, including two-photon
 excitation\cite{VandenBroek2013}, photothermal heterodyne
 detection\cite{Berciaud2006} and interferometric detection\cite{Ignatovich2006}.
 All these methods are useful but require dedicated setups and a high level of
-expertise to be operated. A method that allows to image gold nano particles with
+expertise to be operated. A method that allows to image gold nanoparticles with
 a high background rejection and that is readily implementable in current
-confocal and wide-field microscopes would provide great benefits for
-researchers.
+confocal and wide-field microscopes would provide great benefits.
 
-Gold nanoparticles exhibit a collective oscillation of surface electrons called
-the plasmon. This oscillation exhibits a resonance that is strongly dependent on
+Gold nanoparticles exhibit a collective oscillation of conduction electrons
+called the surface plasmon resonance. This resonance is strongly dependent on
 the shape of the particles. Spheres with radius roughly between $5$ and $80\nm$
-will have a resonance between $520\nm$ and $560\nm$; more elongated particles,
-as nano-rods or bypiramids exhibit resonance wavelengths that reach $800\nm$ or
-longer. It is important to note that tuning the shape of the particles can be
+will have a resonance between $520\nm$ and $560\nm$; more elongated particles
+such as nano-rods or bypiramids exhibit resonance wavelengths that reach
+$800\nm$ or longer. It is important to note that tuning the shape of the particles can be
 easily achieved by synthesis with a relatively narrow distribution of sizes.
 
 The plasmon is responsible for enhanced absorption and scattering cross sections
 of the particle in a specific wavelength range but it is also responsible for an
 enhanced luminescence emission in the same region. The near overlap between the
 excitation spectra and the emission spectra of nanoparticles makes them behave
-in a different way than molecules. If exciting at the absorption maximum (the
-plasmon resonance) most of the emission will be concentrated in a narrow
+in a different way than molecules. Upon excitation at the absorption maximum
+(the plasmon resonance) most of the emission will be concentrated in a narrow
 spectral region around the excitation. This implies that most of the
 luminescence will be blocked by the same filters that prevent direct excitation
 light from reaching the detectors.
@@ -101,19 +100,19 @@ It is also possible to excite the particles off-resonance with a
 shorter wavelength laser (for instance at $532\,\nm$) and the emission will be
 mostly concentrated around the plasmon resonance. This is the closest picture
 to a fluorophore behavior, in which the Stokes-shifted emission can be easily
-detected by introducing a long-pass filter. The drawback however, is that the
-cross-section of particles is much smaller at this wavelength and can only
+detected by introducing a long-pass filter. The drawback, however, is that the
+cross section of particles is much smaller at this wavelength and can only
 be compensated by increasing the excitation power. 
 
-This work on the other hand focuses in the exploitation of the anti-Sokes
-luminescence, which benefits from the enhanced absorption cross section of the
-particles, their photo-stability and fairly narrow emission spectra. Anti-Stokes
-luminescence refers to the emission at shorter wavelengths than the
-excitation. When exciting in resonance with the plasmon, a short-pass
-filter can be introduced for observing only this anti-Stokes emission. The main
-advantage of this procedure is that it allows to highly reduce the background arising from
-self-fluorescence and Raman-scattering from cells, opening the possiblity to
-imaging and tracking smaller particles or to use lower excitation powers.
+This work focuses in the exploitation of the anti-Sokes luminescence, which
+benefits from the enhanced absorption cross section of the particles, their
+photo-stability and fairly narrow emission spectra. Anti-Stokes luminescence
+refers to the emission at shorter wavelengths than the excitation. When exciting
+in resonance with the plasmon, a short-pass filter can be introduced for
+observing only this anti-Stokes emission. The main advantage of this procedure
+is that it highly reduces the background arising from self-fluorescence
+and Raman-scattering from cells, opening the possiblity of imaging and tracking
+smaller particles or of using lower excitation powers.
 
 \begin{figure}[htp]
 \centering
@@ -162,8 +161,8 @@ self-fluorescent sample.
  \label{fig:setup}
 \end{figure}
 
-The images of gold nanorods were perfomed in a home built confocal microscope as
-seen in Figure \ref{fig:setup}a. The objective employed was an oil-immersion
+The images of gold nanorods were recorded in a home-built confocal microscope as
+sketched in Figure \ref{fig:setup}a. The objective employed was an oil-immersion
 Olympus 60X NA 1.4 that allowed a high efficiency in both exciting the particles
 and collecting their emission. The luminescence signal was then filtered and
 detected by either an avalanche photodiode or a liquid-nitrogen-cooled
@@ -171,8 +170,8 @@ CCD-spectrometer (Acton $500\textrm{i}$). Images were acquired by scanning the
 sample across the tightly focused laser beam using a XYZ piezo scanning stage
 (PI Nano Cube). An example can be seen in Figure \ref{fig:setup}b. For detecting
 the anti-Stokes luminescence, a $633\nm$ short-pass filter (Semrock) was added
-to the detection path together with a $633\nm$ notch filter. It was needed to
-employ both filters since either of them is not able to entirely block the
+to the detection path together with a $633\nm$ notch filter. Both filters are
+needed simultaneously since either of them is not able to entirely block the
 excitation light from the detectors. The Stokes luminescence was collected
 replacing the short-pass filter with a long-pass.
 
@@ -185,7 +184,7 @@ nanorods onto a clean coverslip.
 
 Lasers with two different wavelengths were employed. A $532\nm$ laser (CNI) was
 used for exciting the transverse plasmon and collect the full longitudinal
-plasmon spectrum. Single nanorods exhibit a narrow lorentzian shape as
+plasmon spectrum. Single nanorods exhibit a narrow Lorentzian shape as
 displayed in Figure \ref{fig:setup}c, and therefore this characterization is
 useful for discarding clusters of particles from the analysis. A second laser
 (Thorlabs HeNe) with a wavelength of $633\nm$ allowed us to excite the particles
@@ -206,16 +205,17 @@ on the introduced filters.
 \end{figure}
 
 Figure \ref{fig:emission_peak_position} shows the dependence of the emission
-intensity as a function of the plasmon peak position for both the Stokes and the
-anti-Stokes. The inhomogeneity observed can be attributed to a distribution of
-sizes of the sample (bigger particles will have a bigger cross section). It is
-possible to observe, however, that the maximum emission intensity for the
-anti-Stokes appears for those particles with the plasmon slightly blue-shifted
+intensity as a function of the plasmon peak position for the Stokes and the
+anti-Stokes components. The inhomogeneity observed can be attributed to a
+distribution of sizes of the rods (bigger particles will have a bigger cross
+section). It is possible to observe that the maximum emission intensity for the
+anti-Stokes appears for those particles with their plasmon slightly blue-shifted
 from the laser wavelength, while the opposite is observed for the Stokes
 emission. This means that there is a trade-off between the excitation efficiency
 and the collection efficiency: exciting in perfect resonance is more efficient,
-but the filters will eliminate most of the luminescence. Exciting off-resonance
-even if with a smaller cross-section, improves the collection efficiency.
+but the filters will eliminate most of the luminescence. Therefore, exciting
+slightly to the blue (red) of the resonance will be beneficial for the
+(anti-)Stokes imaging.
 
 For proving that the technique is well suited for imaging of particles in
 biological conditions, HeLa cells were deposited on top of the nanorod samples.
