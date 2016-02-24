@@ -22,7 +22,7 @@
 \newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
 \newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
 \newcommand{\pwr}{\ensuremath{\,\textrm{kW/cm}^2}}
-\newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
+\newcommand{\CPS}{\ensuremath{\,\textrm{cps}}}
 \newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
 
 \author{Aquiles Carattino}
@@ -116,7 +116,7 @@ smaller particles or of using lower excitation powers.
 
 \begin{figure}[htp]
 \centering
-	\includegraphics[width=0.4\linewidth]{luminescence_all_AS.png}
+	\includegraphics[width=0.4\linewidth]{Figures/luminescence_all_AS.png}
 	\caption{Schematic of the anti-Stokes luminescence arising from a single gold
 	nanorod. The emission with a higher energy than the excitation energy can be
 	explained by an interaction between the electron and the phonons in the metal}
@@ -194,9 +194,9 @@ on the introduced filters.
 \begin{figure}[htp]
 \centering
 	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{intensity_vs_plasmon_LP.png}}
+	\includegraphics[width=0.4\linewidth]{Figures/intensity_vs_plasmon_LP.png}}
 	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{intensity_vs_plasmon_SP.png}}
+	\includegraphics[width=0.4\linewidth]{Figures/intensity_vs_plasmon_SP.png}}
 	\caption{Emission intensity as a function of plasmon peak position for the
 	Stokes (a) and anti-Stokes (b) sides. The spread in intensities for similar
 	peak position can be attributed to variations in sizes or different
@@ -229,7 +229,7 @@ details of the functionalization of the particles.
 
 \begin{figure}[htp]
 \centering
-	\includegraphics[width=0.4\linewidth]{Figures/02_White_Light/White_Light_with_phone.jpg}
+	\includegraphics[width=0.4\linewidth]{Figures/02_White_Light/white_light_scale.png}
 	\caption{White light transmission image of the sample with cells deposited on
 	top of the rods. It is possible to observe that they cover entirely the
 	observed region without spacing in between them. The spherical cells seen out
@@ -237,7 +237,7 @@ details of the functionalization of the particles.
 	\label{fig:white-light}
 \end{figure}
 
-We have also acquired images of nanoparticles under stained cells. This was
+We have also acquired images of nanoparticles under stained cells. Staining was
 achieved by incubating the cells already attached to the coverslips with $\atto$
 for approximately half an hour. This set of experiments allowed us to compare
 Stokes and anti-Stokes emission in a high-background condition. Figure
@@ -264,24 +264,29 @@ Figure \ref{fig:spectra_rod} shows typical spectra of a gold nanorod under
 different excitation wavelengths. The green curve is the one-photon-excited
 luminescence spectrum observed while irradiating with the $532\nm$ laser; the
 full spectrum of the longitudinal plasmon is clearly observable with its
-resonance at $620\nm$. If the particle is excited at or close to this resonance,
-the shape of the spectrum changes drastically: the red curve shows the Stokes
-shifted emission while exciting at $633\nm$. To show the overlap with the
-curve obtained with the $532\nm$ laser, the Stokes curve was divided by a
-constant such that both have the same value at $650\nm$, just above the cutting
-wavelength of the long-pass filter. The blue curve displays the anti-Stokes
-emission at shorter wavelengths with the same normalization constant used for
-the Stokes case. The spectral shape of this emission doesn't resemble that of
-the plasmon resonance as was the case for the longer wavelengths.
+resonance at $620\nm$. The particle can also be excited at or close to this
+resonance; figure \ref{fig:spectra_rod} shows the emission spectra under those
+conditions. The red curve shows the Stokes shifted emission while exciting at
+$633\nm$. The spectral shape of this emission overlaps with the one observed
+exciting at $532\nm$. The blue curve displays the anti-Stokes emission at
+shorter wavelengths. The spectral shape of this emission doesn't resemble that
+of the plasmon resonance as was the case for the longer wavelengths. The
+exponential shape of this emission can be modelled with Boltzmann statistics of
+the phonon energy levels that are present in gold nanoparticles at room
+temperature.
 
-The dashed curves in the Figure correspond to the anti-Stokes and Stokes
-emissions without normalization. For this nanoparticle, the count rate for both
-types of emissions is comparable, and they are also comparable to the
-luminescence intensity obtained while exciting at $532\,\nm$. The main
+It has to be noted that for the nanoparticle observed in fig
+\ref{fig:spectra_rod}, the count rate for both types of emissions is comparable.
+As explain earlier and shown in Figure \ref{fig:emission_peak_position}, this is
+due to having the plasmon resonance at the most favorable position for enhancing
+the anti-Stokes part of the spectrum. Both types of emission are also comparable
+to the luminescence intensity obtained while exciting at $532\,\nm$. The main
 difference is the laser intensity employed; the power density for exciting the
 transverse plasmon with the $532\nm$ laser was set to $80\pwr$, while for both
 the anti-Stokes and Stokes, the $633\nm$ laser was set to $16\pwr$, $5$ times
-less intense. 
+less intense. This means that the enhanced absorption cross section at
+the resonant wavelength compensates the fact that the majority
+of the luminescence emission with a filter, allowing to use lower powers.
 
 \begin{figure}[htp]
 \centering
@@ -309,26 +314,26 @@ image shows a much lower and flatter background and highly distinguishable
 single particles. Both images display the absolute count rate obtained without any
 further dark count subtraction. 
 
-\begin{figure}[htp]
-\centering
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/03_Stokes_AS/hist_scan05_log.png}}
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/03_Stokes_AS/hist_scan06_log.png}}
-	\caption{Pixel intensity distribution for anti-Stokes and Stokes emission.}
-	\label{fig:distribution_pixels}
-\end{figure}
-
-Figure \ref{fig:distribution_pixels} shows the distribution of pixel intensities
-in both images. The Stokes image shows a distribution of values centered around
-$5500$ counts per second (CPS), while the anti-Stokes shows the vast majority of
-the pixels with less than $100\CPS$, roughly coinciding with the dark counts of
-the detector. This already is a big indication that most of the background in
-the anti-Stokes case arises from the detector and not from the sample. This is
-however not true in the entire image. The region close to the origin,
-coordinates ($0,0$) shows a slightly higher emission in both cases. This may be
-due to anti-Stokes Raman emission from the cell itself which cannot be
-blocked with a short pass filter.
+% \begin{figure}[htp]
+% \centering
+% 	\subfigure{%
+% 	\includegraphics[width=0.4\linewidth]{Figures/03_Stokes_AS/hist_scan05_log.png}}
+% 	\subfigure{%
+% 	\includegraphics[width=0.4\linewidth]{Figures/03_Stokes_AS/hist_scan06_log.png}}
+% 	\caption{Pixel intensity distribution for anti-Stokes and Stokes emission.}
+% 	\label{fig:distribution_pixels}
+% \end{figure}
+% 
+% Figure \ref{fig:distribution_pixels} shows the distribution of pixel intensities
+% in both images. The Stokes image shows a distribution of values centered around
+% $5500$ counts per second (CPS), while the anti-Stokes shows the vast majority of
+% the pixels with less than $100\CPS$, roughly coinciding with the dark counts of
+% the detector. This already is a big indication that most of the background in
+% the anti-Stokes case arises from the detector and not from the sample. This is
+% however not true in the entire image. The region close to the origin,
+% coordinates ($0,0$) shows a slightly higher emission in both cases. This may be
+% due to anti-Stokes Raman emission from the cell itself which cannot be
+% blocked with a short pass filter.
 
 To prove the usefulness of the method in situations with higher
 backgrounds, we incubated the cells with a solution of \atto.
@@ -340,10 +345,7 @@ experiments, but also because of its photo stability and high quantum yield.
 
 \begin{figure}[htp]
 \centering
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/scan03.png}}
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/scan04.png}}
+	\includegraphics[width=\textwidth]{Figures/04_Stokes_AS_with_dye/compose_AS_S.PNG}
 	\caption{Raster scan using a long pass filter (a) and a short pass filter (b).
 	The same rods can be observed; it has to be noted that not necessarily the
 	brightest in the Stokes emission will be the brightest in the anti-Stokes.}
@@ -351,9 +353,9 @@ experiments, but also because of its photo stability and high quantum yield.
 \end{figure}
 
 Figure \ref{fig:Stokes_AS_with_dye} shows two raster scans of the samples
-described above. The left shows the anti-Stokes result, in which
-single-particles are clearly distinguishable. The right one shows the Stokes
-emission, in which at most one particle can be clearly distinguished from the
+described above. The right shows the anti-Stokes result, in which
+single particles are clearly distinguishable. The left figure shows the
+Stokes emission, in which at most one particle can be distinguished from the
 background and is marked with a circle. The distribution of intensities in
 Figure \ref{fig:hists_dye} show a clear change as compared to the situation without
 dye. The anti-Stokes maximum is closer to $500\CPS$, higher than
@@ -361,16 +363,16 @@ the dark counts of the detector. The Stokes emission, on the other hand shows a
 distribution centered around $200\textrm{kCPS}$, one order of
 magnitude higher than the observed without the dye.
 
-\begin{figure}[htp]
-\centering
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/hist_scan03.png}}
-	\subfigure{%
-	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/hist_scan04.png}}
-	\caption{Pixel intensity distribution for anti-Stokes and Stokes emission.
-	The cells were stained with \atto.}
-	\label{fig:distribution_pixels}
-\end{figure}
+% \begin{figure}[htp]
+% \centering
+% 	\subfigure{%
+% 	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/hist_scan03.png}}
+% 	\subfigure{%
+% 	\includegraphics[width=0.4\linewidth]{Figures/04_Stokes_AS_with_dye/hist_scan04.png}}
+% 	\caption{Pixel intensity distribution for anti-Stokes and Stokes emission.
+% 	The cells were stained with \atto.}
+% 	\label{fig:distribution_pixels}
+% \end{figure}
 
 These results indicate that the Stokes imaging deteriorates much faster than the
 anti-Stokes in the presence of emitting molecules both from the cell itself or
@@ -396,64 +398,61 @@ to still be able to detect the particles.
 
 Figure \ref{fig:power_intensity}a shows the dependence of the acquired
 luminescence and the background as functions of excitation power for both the
-Stokes and anti-Stokes emissions of a particle bellow a cell without dye. Care
+Stokes and anti-Stokes emissions of a particle below a cell without dye. Care
 was taken in choosing a particle with a resonance close to the laser resonance,
 not to favor nor the Stokes nor the anti-Stokes luminescence. The Stokes
 emission (red curves) shows a linear increase in signal together with a linear
-increase in background. In this case the signal-to-background ratio saturates at
-a value of $5$. The anti-Stokes emission (blue curves) however shows a much
+increase in background. In this case the signal-to-background ratio reaches a
+value of $5$. The anti-Stokes emission (blue curves) however shows a much
 steeper increase of the signal than the background, reaching a
 signal-to-background ratio of $10$. The signal-to-background ratio of the
-anti-Stokes is two-fold higher than the Stokes one. Particles with a plasmon
+anti-Stokes is twice higher than the Stokes one. Particles with a plasmon
 resonance to the blue of the laser wavelength show an even higher difference
 between both types of emission.
 
 Figure \ref{fig:power_intensity}b shows the same type of curves than
 \ref{fig:power_intensity}a, but for a particle under cells that were stained
-with \atto. It can readily be seen that in the Stokes case the particle is
-barely above the signal arising from the background, and the
+with \atto. It can readily be seen that in the Stokes case the particle's signal
+is barely above the signal arising from the background, and the
 signal-to-background ratio in the order of $3$. On the other hand, the
 anti-Stokes luminescence shows an enhanced contrast, reaching a
 signal-to-background ratio of more than $11$. This particle was chosen because
-it was one of the few observable with the long-pass filter; most of the
-particles that were observable with the anti-Stokes luminescence didn't display
-an emission brighter than the background in the Stokes configuration, as shown
-in Figure \ref{fig:Stokes_AS_with_dye}.
+it was one of the few observable in the Stokes image; all the other particles
+that were observable with the anti-Stokes luminescence didn't display an
+emission brighter than the background in the Stokes configuration, as shown in
+Figure \ref{fig:Stokes_AS_with_dye}.
 
 When the cells were stained with \atto, we observed an increase in the
-background level for both Stokes and anti-Stokes emission and they also depend
-on excitation power. The Stokes emission is expected to be linear with
-irradiation power, since it is the result of fluorescence from the dye and can
-be seen in fig \ref{fig:power_intensity}b. On the other hand, the increase in
-the anti-Stokes background can be attributed to anti-Stokes emission from the
-dye itself; it is of no surprise that a molecule absorbing laser light exhibits
-this emission at room temperature. The main difference between both curves is
-the slope at which the background increases. The Stokes emission of the
-background raises as steeply as the particle's emission with increasing
-excitation power; the anti-Stokes background however, shows a much more gradual
-increase than the particle's emission.
+background levels for both Stokes and anti-Stokes emission and these levels also
+depend on excitation power. This means that the dye shows both types of
+emission, as was expected. The main difference is the quantum yield of each one.
+While the particles appear to be very efficient anti-Stokes emitters, in part
+due to a large absorption cross section, in part due to a plasmonic effect, dyes as the one
+employed in this work, are much better Stokes emitters than anti-Stokes. This is
+the reason why rods are distinguishable from the background only in one of the
+configurations.
 
 The signal-to-background ratio of the anti-Stokes emission increases with
 increasing laser excitation powers, going from values close to $2$ for $10\uW$
 up to values of $11$ for $150\uW$ as shown in fig \ref{fig:power_intensity}b.
 However this can't be extrapolated further than the results here presented. It
-is known that gold nano rods reshape under high irradiation intensities. For
+is known that gold nanorods reshape under high irradiation intensities. For
 high-NA objectives like the one employed in this work, a rule of thumb is not to
 exceed $150\uW$ at the back aperture to prevent reshaping.
 
 \section{Conclusions}
-In this work we have proved that anti-Sokes emission arising from the excitation
-in (or close to) the plasmon resonance of a gold nanorod can be exploited to
+In this work we have proved that anti-Sokes photoluminescence arising from the
+excitation in (or close to) the plasmon resonance of a gold nanorod can be exploited to
 image them in biologically relevant conditions. The comparison between the
 Stokes and anti-Stokes was possible by using particles immobilized on the
 substrate, but this work shows that the technique can be easily extended to
 imaging in fixed cells, in vivo or even for tracking particles in real time.
 
 Extending this technique to wide-field should be possible considering the laser
-powers employed in this work. EMCCDs provide enough gain as to easily detect
-single nanoparticles, while at the same time the background is sufficiently low
-as to give a high contrast. This extension of the technique would provide a way
-of doing tracking at higher framerates than achievable by confocal imaging.
+powers employed in this work. EMCCDs provide enough gain to easily detect single
+nanoparticles, while at the same time the background is sufficiently low to give
+a high contrast. This extension of the technique would provide a way of doing
+tracking at higher frame rates than achievable by confocal imaging.
 
 The lower count rate of the anti-Stokes compared to the Stokes emission can be a
 drawback in some applications as localization. This technique's accuracy depends 
@@ -465,13 +464,13 @@ for many applications.
 We have shown that the signal-to-background ratio of the anti-Stokes emission is
 higher than for the Stokes emission. In the case of non stained HeLa cells,
 typical values can be around $10$ and $5$ respectively for a particle with a
-resonance equal to the laser wavelength. For stained cells the difference is
-much more remarkable, since most of the particles will have a Stokes emission
+resonance at the laser wavelength. For stained cells the difference is
+much more pronounced, since most of the particles will have a Stokes emission
 comparable to the background, while in the anti-Stokes the signal-to-background
 ratio can still be higher than $10$.
 
 The main advantage of the technique presented in this work is that it can be
-easily implemented in any commercial or home built microscope. It does not
+easily implemented in any commercial or home-built microscope. It does not
 require a high investment nor in equipment nor in time, since filters are
 normally available for common laser wavelengths and there is no further need of
 modifying any experimental configuration already existent. Moreover all the data
