@@ -2,3 +2,17 @@
 /BackgroundFree.pdf
 /BackgroundFree.synctex.gz
 /tmp/
+*.log
+*.aux
+*.dvi
+*.gz
+*.bbl
+*.blg
+*.db
+/tmp
+/tmp/*
+*.settings*
+*.rtf
+pdf
+tmp
+*.pdf
