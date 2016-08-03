@@ -51,15 +51,15 @@ anti-Stokes emission}
 \keywords{Gold nanorods, Plasmon, Imaging, Anti-Stokes, Bio-imaging, Confocal}
 
 \begin{document}
-\maketitle \abstract{Metallic nanoparticles have opened the possibility of time
-unlimited imaging, tracking and manipulation of biological samples. Their low
-quantum yield however, makes them hard to detect under high background
+\maketitle \abstract{Metallic nanoparticles have opened the possibility of imaging, tracking
+and manipulating biological samples without time limitations. Their low photoluminescence quantum yield however,
+makes them hard to detect under high background
 conditions. In this study we show that it is possible to image gold nanorods by
 detecting their anti-Stokes emission under resonant excitation. We show that
 even in a cell containing the fluorescent dye \atto, the signal-to-background
 ratio of the anti-Stokes emission is higher than 10, while it is impossible to image the
 particles with the Stokes emission. The main advantage of this technique is that
-it does not require major changes in existing setups, only the addition of an
+it does not require any major change in existing fluorescence imaging setups, only the addition of an
 appropriate short-pass filter in the detection path.}
 
 \section{Introduction}
@@ -68,8 +68,8 @@ biological samples both in vitro and in vivo\cite{Moerner2007}.
 Fluorescent organic dyes are commonly employed to such ends because of their
 reduced size and high quantum yield\cite{Lichtman2005}. Fluorophores, however,
 have an inherent constraint  in the possible observation time, since molecules
-eventually bleach under intense irradiation\cite{Shaner2005}. Even dyes with a
-high photo-stability cannot be imaged for longer than few tens of seconds. Gold
+eventually bleach under intense illumination\cite{Shaner2005}. Even the most photostable
+dyes cannot be imaged at saturation for longer than few tens of seconds. Gold
 nanoparticles on the other hand are almost indefinitely stable\cite{Jana2001}
 and open up many original applications including photothermal
 therapy\cite{Alkilany2012} and imaging\cite{VandenBroek2013}.
@@ -84,7 +84,7 @@ gold nanoparticles are much larger and their emission quantum yield is much
 smaller, in the order of $10^{-6}$\cite{Yorulmaz2012}.
 This minute value is compensated by an absorption cross section several orders
 of magnitude larger than that of molecules\cite{Link1999}, therefore the
-brightness of gold nanoparticles is comparable to that of fluorescent molecules.
+brightness of gold nanoparticles is comparable to that of fluorescent molecules under the same illumination intensity.
 
 Since the absorption cross section of the particles scales as their volume, detecting
 smaller particles in presence of background requires a specific approach.
@@ -101,8 +101,8 @@ called surface plasmon resonance\cite{Bouhelier2005}. This resonance strongly
 depends on the shape of the particles\cite{Dulkeith2004}\cite{Link2000a}.
 Spheres with radius roughly between $5$ and $80\nm$ will have a resonance
 between $520\nm$ and $560\nm$; more elongated particles such as nano-rods or
-bipyramids\cite{Rao2015} exhibit red-shifted resonance wavelengths that reach
-$800\nm$ or longer\cite{Ngoc2015}. It is important to note that tuning the shape
+bipyramids\cite{Rao2015} exhibit red-shifted longitudinal resonances that reach
+wavelengths of $800\nm$ or longer\cite{Ngoc2015}. It is important to note that tuning the shape
 of the particles can be easily achieved by synthesis and that relatively narrow
 size distributions can be obtained\cite{Nikoobakht2003}.
 
@@ -113,15 +113,15 @@ the plasmon resonance. Because of the absence of a gap in the excited states
 spectrum of gold nanoparticles, their photoluminescence excitation spectra
 overlaps their emission spectrum\cite{Yorulmaz2012}, a very different situation
 from the Stokes-shifted emission of molecules and semiconductor nanocrystals.
-Upon excitation of gold nanoparticles at the plasmon resonance, their absorption
-maximum, most of the emission will be concentrated in a narrow spectral region
+Upon excitation of gold nanoparticles at their plasmon resonance maximum,
+most of the emission will be concentrated in a narrow spectral region
 around the excitation. This implies that most of the luminescence will be
-blocked by the filters that, in single molecule experiments, prevent direct
+blocked by the filters that, in fluorescence detection experiments, prevent direct
 excitation light from reaching the detectors.
 
 It is also possible to excite the particles off-resonance with a shorter
-wavelength laser (for instance at $532\,\nm$) and the emission will be mostly
-concentrated around the plasmon resonance. This is the closest situation to the
+wavelength laser (for instance through interband transitions with $532\,\nm$) and the emission will be mostly
+concentrated around the longitudinal plasmon resonance of nanorods at longer wavelengths. This is the closest situation to the
 behavior of a fluorophore, in which the Stokes-shifted emission can be easily
 detected by introducing a long-pass filter. The drawback, however, is that the
 cross section of particles is much smaller at this wavelength and can only be
@@ -130,7 +130,7 @@ compensated by increasing the excitation power.
 \begin{figure}[htp] \centering
 \includegraphics[width=0.45\textwidth]{Figures/01_3_Curves/3_curves_final.png}
 \caption{Luminescence spectra of a single gold nanorod. Green curve: emission
-after excitation with a $532\nm$ laser. Red curve: Stokes emission after
+upon excitation with a $532\nm$ laser. Red curve: Stokes emission upon
 excitation with a resonant $633\nm$ HeNe laser. Blue curve: anti-Stokes emission
 under the same $633\nm$ excitation.}
 	\label{fig:spectra_rod}
@@ -146,7 +146,7 @@ The particle can also be excited at or close to its resonance; fig.
 curve is the Stokes-shifted emission excited at $633\nm$ (the vertical black
 line in the figure). The spectral shape of this emission overlaps with the one
 observed exciting at $532\nm$; exciting in resonance is more efficient and
-therefore the emission is much brighter. However it can be seen that the filters
+therefore the emission is much brighter. However it is clear from the shape of spectra that the filters
 block an important part of the emission close to the plasmon maximum.
 
 The blue curve in fig. \ref{fig:spectra_rod} displays the anti-Stokes emission
@@ -154,7 +154,7 @@ at shorter wavelengths. In this case the spectral shape doesn't resemble that of
 the plasmon resonance. The exponential-like decay of the anti-Stokes spectrum
 can be modelled with Boltzmann statistics\cite{He2015} of the bath (phonons and
 electrons) energy levels that are present in gold nanoparticles at room
-temperature and will be the object of future work. 
+temperature. 
  
 This work focuses in the exploitation of the anti-Stokes
 luminescence\cite{Jiang2013} for imaging of gold nanorods in biologically
@@ -172,35 +172,32 @@ imaging and tracking smaller particles or using lower excitation powers.
 	\includegraphics[width=0.45\textwidth]{Figures/02_Scheme/luminescence_all_AS.png}
 	\caption{Schematic of the anti-Stokes luminescence arising from a single gold
 	nanorod. After excitation with a photon, a collective oscillation of electrons
-	is generated. Once the coherence is lost, the state can be describe as an
-	electron-hole pair. Three possible scenarios are possible: electron and hole
-	recombine radiatively after relaxing (Stokes emission); electron and hole
-	recombine non radiatively after transferring their energy to the lattice
-	(this is the most probable process); electron and hole recombine
-	radiatively after gaining energy from the lattice (anti-Stokes emission).}
+	is generated. Once the coherence is lost, the state can be described as an
+	electron-hole pair. Three scenarios are possible: electron and hole
+	may recombine radiatively after one of more interactions with the thermal baths of lattice phonons and charge carrier thermal excitations: i) if the energy difference between electron and hole states is lower than the initial one after excitation we obtain Stokes emission upon a radiative recombination; ii) if electron and hole transiently increase their energy difference at the bath's expense before recombining radiatively, we observe anti-Stokes emission; iii) if electron and hole recombine non radiatively, their energy difference is transferred to the baths and no photon is emitted. The latter process is the most probable one).}
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
 The anti-Stokes emission mechanism\cite{He2015} is depicted in Figure
 \ref{fig:anti-Stokes-process} and can be described as follows: an absorbed
 photon generates a collective oscillation of the conduction electrons. After a
-fast lost of the coherence\cite{Sonnichsen2002}, the state of the particle can
-be described as a pair of electron and hole. After interacting with the thermal
-bath, i.e. with a phonon of the gold lattice\cite{Lin2008} or a thermally
-excited charge carrier\cite{Sun1994}, either the hole or the electron can
-receive energy. This energy will transiently increase the energy difference between electron and
-hole; if they recombine radiatively, the emitted photon will have a shorter
+fast loss of the coherence\cite{Sonnichsen2002}, the state of the particle can
+be described as an electron-hole pair. After one or more interactions with the thermal
+baths, i.e. with phonons of the gold lattice\cite{Lin2008} or thermally
+excited charge carriers\cite{Sun1994}, the hole and/or the electron can
+receive energy. This energy can transiently increase the energy difference between electron and
+hole; if then they recombine radiatively, the emitted photon will have a shorter
 wavelength (higher energy) than the incoming photon\cite{Huang2014}. The same
-mechanism can account for the Stokes-shifted emission, the only difference being
-that electron or hole loose energy to the lattice before recombining
-radiatively. Finally, electron and hole can relax and recombine
-non-radiatively, transferring all their energy to the lattice. 
+mechanism accounts for the Stokes-shifted emission, the only difference being
+that the electron-hole pair has lost energy to the baths before recombining
+radiatively. Finally, electron and hole can recombine
+non-radiatively, transferring their whole energy to the lattice. 
 
 The probability of a radiative recombination of electrons and holes is low,
 as can be experimentally determined by the very low emission quantum yield of
-the particles\cite{Yorulmaz2012}\cite{Rao2015}\cite{Sonnichsen2002}. Anti-Stokes
+the photoluminescence\cite{Yorulmaz2012}\cite{Rao2015}\cite{Sonnichsen2002}. Anti-Stokes
 emission stems from electron-hole recombination events after the electron-hole
-pair has gained energy from the lattice and before it thermalizes. Even if the
+pair has transiently gained energy from the lattice, i.e., before it thermalizes. Even if the
 anti-Stokes scenario is unlikely, it is frequent enough as to observe an
 intensity in the range of $10^3$ counts per second on an avalanche photodiode
 with excitation powers around $16\pwr$. Such relatively high detection rates
@@ -211,7 +208,7 @@ The main advantage of the approach presented in this work is the simplicity of
 its implementation. With any confocal or wide-field setup enabling resonant
 excitation of gold nano-particles, one can exploit the anti-Stokes
 photoluminescence by inserting a proper short-pass filter in the detection path.
-Single gold nanoparticles can be detected even in higher background conditions
+As we will see below, single gold nanoparticles can be detected even in higher background conditions
 such as a stained cell, or a highly self-fluorescent sample.
 
 \section{Experimental method}
@@ -225,24 +222,24 @@ liquid-nitrogen-cooled CCD-spectrometer (Acton $500\textrm{i}$). An example of
 an image can be seen in Figure \ref{fig:setup}b. For detecting the anti-Stokes
 luminescence, a $633\nm$ short-pass filter (Semrock) was added to the detection
 path together with a $633\nm$ notch filter. Both filters were needed
-simultaneously since either of them is not able to entirely block the excitation
+simultaneously since neither of them was able to entirely block the excitation
 light from the detectors. The Stokes luminescence was collected replacing the
 short-pass filter with a $633\nm$ long-pass (Semrock).
 
 Gold nanorods were synthesized by following the standard seeded-growth
 method\cite{Nikoobakht2003}. The average size of the nanorods was $50\nm\times
-23\nm$ and their SPR is located at around $630\nm$ in water. Figure
+23\nm$ and their SPR was located at around $630\nm$ in water. Figure
 \ref{fig:uvvis} shows the extinction spectrum of a suspension of the
-nanoparticles after synthesis and fig. \ref{fig:TEM} shows a TEM image of the
+nanoparticles after synthesis and Fig. \ref{fig:TEM} shows a TEM image of the
 rods.
 
 Two different laser wavelengths were employed. A $532\nm$ laser (CNI) was used
-for exciting the transverse plasmon and collect the full longitudinal plasmon
-spectrum. Single nanorods exhibit a narrow Lorentzian-shaped luminescence
+for exciting the transverse plasmon and the full longitudinal plasmon
+spectrum was collected. Single nanorods exhibit a narrow Lorentzian-shaped luminescence
 spectrum as displayed in Figure \ref{fig:setup}c. A second laser (Thorlabs HeNe)
 with a wavelength of $633\nm$ allowed us to excite the particles in resonance
 and collect either the Stokes or the anti-Stokes emission depending on the
-introduced filters.
+analysis filters.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.45\textwidth]{Figures/03_Intensity_SPR/Intensity_SPR.png}
@@ -250,8 +247,7 @@ introduced filters.
 plasmon peak position. The data are plotted for the anti-Stokes (a) and Stokes
 (b) sides of the emission; the orange vertical line at $633\nm$ is the
 wavelength of the laser. The spread in intensities for similar peak positions
-can be attributed to variations in sizes and to different orientations of the
-rods in the circularly polarized beam. The maximum emission for the anti-Stokes
+can be attributed to variations in sizes and, possibly, to different quantum yields of the different individual particles. The maximum emission for the anti-Stokes
 is obtained when the plasmon is slightly blue shifted from the excitation laser
 and viceversa for the Stokes emission.}
 	\label{fig:emission_peak_position}
@@ -259,10 +255,10 @@ and viceversa for the Stokes emission.}
 
 Figure \ref{fig:emission_peak_position} shows a scatter plot of the Stokes and
 anti-Stokes emission intensities of $75$ gold nanorods against their plasmon
-peak position. The dispersion of the points observed can be attributed to the
+peak position. The large dispersion of the points observed can be attributed to the
 distribution of sizes of the rods inherent to the synthesis
 method\cite{Zijlstra2011} (bigger particles will have a bigger cross section)
-and to different orientations. It is possible to observe that the maximum
+and probably to different photoluminescence quantum yields for different individual particles. Because the particles were first deposited on glass directly and because they were excited with circularly polarized light, their orientation shouldn't influence their photoluminescence intensity. It is possible to observe that the maximum
 emission intensity for the anti-Stokes appears for those particles with their
 plasmon slightly blue-shifted from the laser wavelength, while the opposite is
 observed for the Stokes emission. This means that there is a trade-off between
@@ -271,7 +267,7 @@ resonance is more efficient, but the filters will eliminate most of the
 luminescence. Therefore exciting slightly to the blue (red) of the resonance
 will be beneficial for the (anti-)Stokes imaging.
 
-To prove that the technique is well suited for imaging of particles in
+To prove that the technique is well suited for imaging particles in
 biological systems, we deposited HeLa cells on top of the nanorod sample.
 Firstly, nanoparticles were deposited on clean glass coverslips by spin casting
 a suspension of gold nanorods as described elsewhere\cite{Zijlstra2011}. This
@@ -299,7 +295,7 @@ anti-Stokes emissions under high-background conditions.
 
 \section{Results and discussion}
 
-The nanoparticle shown in fig. \ref{fig:spectra_rod} displays comparable count
+The nanoparticle shown in Fig. \ref{fig:spectra_rod} displays comparable count
 rates for both the Stokes and anti-Stokes emissions. As explained earlier and
 shown in Figure \ref{fig:emission_peak_position}, this is because the excitation
 laser is slightly red-shifted from the plasmon resonance, the most favorable
@@ -342,7 +338,7 @@ The left image shows the Stokes emission, where a $633\nm$ notch and $633\nm$
 long pass filter were employed. The right image corresponds to the anti-Stokes
 emission, where the same notch and a $633\nm$ short pass filter were employed.
 In both cases the irradiation intensity was kept at $30\pwr$ at the back
-aperture of the objective. Most particles are observed with both sets of filters
+aperture of the objective. Most particles are observed in both Stokes and anti-Stokes images
 but with different intensities. The main difference between the two images is
 the background count rate. The Stokes image has an average count rate around
 $5\textrm{k}\CPS$, while the anti-Stokes is below $100\CPS$, close to the dark
@@ -354,10 +350,10 @@ obtained after dark count subtraction.
 
 The circled particles in fig. \ref{fig:stokes_as_no_dye} show all the different
 situations. Particle $1$ is the brightest both in Stokes and anti-Stokes. This
-can be given by a slightly bigger particle. Particles $2$ and $3$ are barely
+can be explained if this is a bigger particle. Particles $2$ and $3$ are barely
 distinguishable in the Stokes image, while they are clearly visible in the
-anti-Stokes. This is given by a higher background level in the Stokes case and
-by a plasmon resonance to the blue of the laser, favoring the latter emission
+anti-Stokes. This can be attributed to a higher background level in the Stokes case and
+by a plasmon resonance of particles 2 and 3 to the blue of the laser, favoring the anti-Stokes emission
 process. Particles $4$ and $5$ are visible in both, but particle $4$ is brighter
 than $5$ in the Stokes image, while the opposite happens in the anti-Stokes.
 This is due to a plasmon position that favors more one or the other type of
@@ -369,10 +365,10 @@ following the trends here presented.
 To prove the usefulness of the method in situations with higher background, we
 incubated the cells with a solution of \atto. The fluorescent labelling of the
 cell, even if not specific, resulted in a similar situation to what would be
-obtained in the case of labelling of organelles or the entire cell membrane.
+obtained in the case of labelling organelles or the entire cell membrane.
 This dye was chosen because its absorption maximum is close to $633\nm$, the
 excitation wavelength we employed in these experiments, but also because of its
-photo stability and high quantum yield.
+photostability and high quantum yield.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.9\textwidth]{Figures/05_Stokes_AS_with_dye/stokes_as_with_dye.png}
@@ -387,7 +383,7 @@ rejection. The scale bar in both figures is $2\um$ in length.}
 
 Figure \ref{fig:Stokes_AS_with_dye} shows two raster scans of the samples
 described above. The right panel shows the anti-Stokes image, in which single
-particles are clearly distinguishable and marked with a circle. The left panel
+particles are clearly distinguishable and marked with a circle. We made sure that the observed spots were nanorods by monitoring their intensity under high illumination conditions and checking that they did not bleach. The left panel
 shows the Stokes emission, in which no particles can be distinguished from the
 background. The average emission in the anti-Stokes image is below $500\CPS$,
 but higher than the dark counts of the detector. The Stokes emission, on the other
@@ -406,10 +402,10 @@ individual particles.
 
 \begin{figure}[htp] \centering
 \includegraphics[width=0.45\textwidth]{Figures/06_Power_Intensity/power_intensity.png}
-\caption{Emission intensity and background as functions of excitation intensity
+\caption{Emission intensity (solid lines) and background (broken lines) as functions of excitation intensity
 for the Stokes (red) and the anti-Stokes (blue) emissions. These data were
-obtained on a particle with its plasmon close to the laser line, so as to avoid
-favouring one or the other emission. Arrows indicate the maximal
+obtained on two different particles for the right (unstained cells) and left (stained cells) panels. For the unstained cells, the plasmon was chosen close to the laser line, so as to avoid
+favouring one or the other emission by the resonance effect. Arrows indicate the maximal
 signal-to-background ratio of each emission in the figure conditions. }
 	\label{fig:power_intensity}
 \end{figure}
@@ -428,13 +424,12 @@ with a plasmon resonance to the blue of the laser wavelength show an even larger
 ratio of anti-Stokes to Stokes emission.
 
 Figure \ref{fig:power_intensity}b shows the same type of curves as
-\ref{fig:power_intensity}a, but for a particle under cells that contained \atto.
+\ref{fig:power_intensity}a, for a different particle under cells that contained \atto.
 In this case the background prevented the acquisition of luminescence spectra;
-the particle for the Figure is representative of the average behavior. It can
-readily be seen that in the Stokes case the particle's signal is negligibly
+the particle chosen to draw the figure is representative of the average behavior. We see that in the Stokes case the particle's signal is barely
 larger than the fluorescence background from the dye. On the other hand, the
 anti-Stokes luminescence shows an enhanced contrast, reaching a
-signal-to-background ratio of more than $20$. The background level observed in
+signal-to-background ratio of more than $20$ for this particular nanorod. The background level observed in
 the Stokes image increases much faster with dye content than the anti-Stokes
 background.
 
@@ -457,18 +452,17 @@ results here presented. It is known that gold nanorods reshape under high
 irradiation intensities\cite{Liu2009}. For high-NA objectives like the one
 employed in this work, a rule of thumb to prevent reshaping in scanning confocal images is to
 keep the excitation intensity lower than $150\uW$ at the back aperture of the
-objective lens (or equivalently a power density of $53\pwr$ at the image
+objective lens (or equivalently a power density of $53\pwr$ at the object
 plane.)
 
 In the presence of a fluorescent dye, the signal-to-background obtained is
-higher than in the case without dye. This is given by selecting particles with a
+higher than in the case without dye. This may be a consequence of the selection of particles with a
 plasmon more favorable to the anti-Stokes than to the Stokes emission, and
 couldn't be avoided by acquiring luminescence spectra since the background was
-too high. The correct focusing on the sample plane was verified both by
+too high. Although we checked the correct focusing on the sample plane both by
 optimizing the reflection on the glass/water interface and by employing the
-anti-Stokes signal.
-Regardless of this, it was never possible to observe single particles under high
-background conditions with the Stokes configuration.
+anti-Stokes signal, it was never possible to observe single particles under high
+background conditions in the Stokes configuration.
 
 \section{Conclusions}
 In this work we have demonstrated that anti-Stokes photoluminescence arising
@@ -494,7 +488,7 @@ obtained in this work are close to $1.5\kCPS$, and should be enough
 for many applications. 
 
 We have shown that the signal-to-background ratio of the anti-Stokes emission is
-higher than for the Stokes emission. In the case of HeLa cells not containing a
+higher than that of the Stokes emission. In the case of HeLa cells not containing a
 fluorescent dye, typical values can be around $10$ and $5$ respectively for a
 particle with a resonance at the laser wavelength. For HeLa cells containing
 \atto the difference is much more pronounced, since most of the particles will
