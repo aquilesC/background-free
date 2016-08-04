@@ -1,17 +1,17 @@
 %\documentclass[a4paper,oneside,onecolumn]{article}
 \documentclass[journal=nalefd,manuscript=letter]{achemso}
+\setkeys{acs}{articletitle=true}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{subfigure}
 \usepackage{xr}
-
 %%% This is for adding a footer with the time of the compilation of the file.
 %%% Useful for versioning of printed copies.
-\usepackage{datetime}
-\usepackage{fancyhdr}
-\fancyfoot[L]{\fontsize{8}{12} \selectfont \today $\,$ \currenttime}
-\pagestyle{fancy}
+%\usepackage{datetime}
+%\usepackage{fancyhdr}
+%\fancyfoot[L]{\fontsize{8}{12} \selectfont \today $\,$ \currenttime}
+%\pagestyle{fancy}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -51,16 +51,17 @@ anti-Stokes emission}
 \keywords{Gold nanorods, Plasmon, Imaging, Anti-Stokes, Bio-imaging, Confocal}
 
 \begin{document}
-\maketitle \abstract{Metallic nanoparticles have opened the possibility of imaging, tracking
-and manipulating biological samples without time limitations. Their low photoluminescence quantum yield however,
-makes them hard to detect under high background
-conditions. In this study we show that it is possible to image gold nanorods by
-detecting their anti-Stokes emission under resonant excitation. We show that
-even in a cell containing the fluorescent dye $\atto$, the signal-to-background
-ratio of the anti-Stokes emission is higher than 10, while it is impossible to image the
-particles with the Stokes emission. The main advantage of this technique is that
-it does not require any major change in existing fluorescence imaging setups, only the addition of an
-appropriate short-pass filter in the detection path.}
+\maketitle \abstract{Metallic nanoparticles have opened the possibility of
+imaging, tracking and manipulating biological samples without time limitations.
+Their low photoluminescence quantum yield however, makes them hard to detect
+under high background conditions. In this study we show that it is possible to
+image gold nanorods by detecting their anti-Stokes emission under resonant
+excitation. We show that even in a cell containing the fluorescent dye $\atto$,
+the signal-to-background ratio of the anti-Stokes emission is higher than 10,
+while it is impossible to image the particles with the Stokes emission. The main
+advantage of this technique is that it does not require any major change in
+existing fluorescence imaging setups, only the addition of an appropriate
+short-pass filter in the detection path.}
 
 \section{Introduction}
 High-resolution microscopy has become an indispensable tool for studying
@@ -104,9 +105,9 @@ depends on the shape of the particles\cite{Dulkeith2004}\cite{Link2000a}.
 Spheres with radius roughly between $5$ and $80\nm$ will have a resonance
 between $520\nm$ and $560\nm$; more elongated particles such as nano-rods or
 bipyramids\cite{Rao2015} exhibit red-shifted longitudinal resonances that reach
-wavelengths of $800\nm$ or longer\cite{Ngoc2015}. It is important to note that tuning the shape
-of the particles can be easily achieved by synthesis and that relatively narrow
-size distributions can be obtained\cite{Nikoobakht2003}.
+wavelengths of $800\nm$ or longer\cite{Ngoc2015}. It is important to note that
+tuning the shape of the particles can be easily achieved by synthesis and that
+relatively narrow size distributions can be obtained\cite{Nikoobakht2003}.
 
 The plasmon is responsible for enhanced absorption and scattering cross
 sections\cite{Ni2008} of particles for specific wavelengths but it is also
@@ -171,14 +172,21 @@ self-fluorescence and Raman-scattering from cells, most of it being
 Stokes-shifted. Reducing the background therefore opens the possibility of
 imaging and tracking smaller particles or using lower excitation powers.
 
-\begin{figure}[htp]
-\centering
-	\includegraphics[width=0.45\textwidth]{Figures/02_Scheme/luminescence_all_AS.png}
-	\caption{Schematic of the anti-Stokes luminescence arising from a single gold
-	nanorod. After excitation with a photon, a collective oscillation of electrons
-	is generated. Once the coherence is lost, the state can be described as an
-	electron-hole pair. Three scenarios are possible: electron and hole
-	may recombine radiatively after one of more interactions with the thermal baths of lattice phonons and charge carrier thermal excitations: i) if the energy difference between electron and hole states is lower than the initial one after excitation we obtain Stokes emission upon a radiative recombination; ii) if electron and hole transiently increase their energy difference at the bath's expense before recombining radiatively, we observe anti-Stokes emission; iii) if electron and hole recombine non radiatively, their energy difference is transferred to the baths and no photon is emitted. The latter process is the most probable one).}
+\begin{figure}[htp] \centering
+\includegraphics[width=0.45\textwidth]{Figures/02_Scheme/luminescence_all_AS.png}
+\caption{Schematic of the anti-Stokes luminescence arising from a single gold
+nanorod. After excitation with a photon, a collective oscillation of electrons
+is generated. Once the coherence is lost, the state can be described as an
+electron-hole pair. Three scenarios are possible: electron and hole may
+recombine radiatively after one of more interactions with the thermal baths of
+lattice phonons and charge carrier thermal excitations: i) if the energy
+difference between electron and hole states is lower than the initial one after
+excitation we obtain Stokes emission upon a radiative recombination; ii) if
+electron and hole transiently increase their energy difference at the bath's
+expense before recombining radiatively, we observe anti-Stokes emission; iii) if
+electron and hole recombine non radiatively, their energy difference is
+transferred to the baths and no photon is emitted. The latter process is the
+most probable one).}
 	\label{fig:anti-Stokes-process}
 \end{figure}
 
@@ -251,9 +259,10 @@ analysis filters.
 plasmon peak position. The data are plotted for the anti-Stokes (a) and Stokes
 (b) sides of the emission; the orange vertical line at $633\nm$ is the
 wavelength of the laser. The spread in intensities for similar peak positions
-can be attributed to variations in sizes and, possibly, to different quantum yields of the different individual particles. The maximum emission for the anti-Stokes
-is obtained when the plasmon is slightly blue shifted from the excitation laser
-and viceversa for the Stokes emission.}
+can be attributed to variations in sizes and, possibly, to different quantum
+yields of the different individual particles. The maximum emission for the
+anti-Stokes is obtained when the plasmon is slightly blue shifted from the
+excitation laser and viceversa for the Stokes emission.}
 	\label{fig:emission_peak_position}
 \end{figure} 
 
@@ -515,6 +524,12 @@ available for common laser wavelengths and there is no further need of modifying
 any experimental configuration already existent. Moreover all the data analysis
 techniques employed in confocal or wide-field images for localization, tracking,
 etc. do not have to be modified.
+
+\section{Acknowledgements}
+We thank Aimee Boyle for the synthesis and TEM images of the gold nanorods.
+This work is part of the research programme of the Foundation for Fundamental
+Research on Matter (FOM), which is part of the Netherlands Organisation for
+Scientific Research (NWO).
 
 \bibliography{BackgroundFree}
 
