@@ -1,46 +1,43 @@
 %\documentclass[a4paper,oneside,onecolumn]{article}
 \documentclass[journal=nalefd,manuscript=letter]{achemso}
+\setkeys{acs}{articletitle=true}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{subfigure}
-%\usepackage{epstopdf}
-%\usepackage{setspace}
-%\onehalfspace
-%\usepackage{authblk}
-%\usepackage[margin=2.3cm]{geometry}
-
-%\geometry{a4paper,left=2.3cm,right=2.3cm,top=2.5cm,bottom=4.5cm}
+\usepackage{xr}
+%%% This is for adding a footer with the time of the compilation of the file.
+%%% Useful for versioning of printed copies.
+%\usepackage{datetime}
+%\usepackage{fancyhdr}
+%\fancyfoot[L]{\fontsize{8}{12} \selectfont \today $\,$ \currenttime}
+%\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage[version=3]{mhchem} % Formula subscripts using \ce{}
 \usepackage[T1]{fontenc}       % Use modern font encodings
-\renewcommand{\thefigure}{S\arabic{figure}}%
+\externaldocument{supporting}
+
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
 \newcommand{\eV}{\ensuremath{\,\textrm{eV}}}
 \newcommand{\uM}{\ensuremath{\,\mu\textrm{M}}}
 \newcommand{\uW}{\ensuremath{\,\mu\textrm{W}}}
+\newcommand{\pM}{\ensuremath{\,\textrm{pM}}}
 \newcommand{\meV}{\ensuremath{\,\textrm{meV}}}
 \newcommand{\pwr}{\ensuremath{\,\textrm{kW/cm}^2}}
-\newcommand{\CPS}{\ensuremath{\,\textrm{cps}}}
-\newcommand{$\atto$}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
+\newcommand{\CPS}{\ensuremath{\,\textrm{CPS}}}
+\newcommand{\kCPS}{\ensuremath{\,\textrm{kCPS}}}
+\newcommand{\atto}{\ensuremath{\textrm{ATTO}\,647\textrm{N}}}
 
-\author{Aquiles Carattino}
-\affiliation[Leiden]
-{Huygens-Kamerlingh Onnes Lab, 2300RA Leiden, The Netherlands}
-\author{Veer Keizer}
-\affiliation[LeidenBio]
-{Institute of Biology, Leiden University, 2333CC Leiden, The Netherlands}
-\author{Marcel Schaaf}
-\affiliation[LeidenBio]
-{Institute of Biology, Leiden University, 2333CC Leiden, The Netherlands}
-\author{Michel Orrit}
-\email{orrit@physics.leidenuniv.nl}
-\affiliation[Leiden]
-{Huygens-Kamerlingh Onnes Lab, 2300RA Leiden, The Netherlands}
+\author{A. Carattino}
+\author{V.I.P. Keizer}
+\author{M.J.M Schaaf}
+\author{M. Orrit}
 
-\title{Supplementary Information for: Background-free imaging of gold nanorods
-through detection of anti-Stokes emission}
+\title{Background-free imaging of gold nanorods through detection of
+anti-Stokes emission}
 
 \keywords{Gold nanorods, Plasmon, Imaging, Anti-Stokes, Bio-imaging, Confocal}
 
