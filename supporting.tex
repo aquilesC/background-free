@@ -17,7 +17,7 @@
 
 \usepackage[version=3]{mhchem} % Formula subscripts using \ce{}
 \usepackage[T1]{fontenc}       % Use modern font encodings
-\externaldocument{supporting}
+\renewcommand{\thefigure}{S\arabic{figure}}
 
 \newcommand{\nm}{\ensuremath{\,\textrm{nm}}}
 \newcommand{\um}{\ensuremath{\,\mu\textrm{m}}}
@@ -177,6 +177,26 @@ due to an increase of the concentration of $\atto$. The incubation procedure doe
 not prevent the accumulation of dye in specific organelles of the cells, and
 there is no control on the final dye concentration. 
 
+\section{Signal-to-background of several particles}
+\begin{figure}[htp] \centering
+\includegraphics[width=0.95\textwidth]{Figures/Supplementary/08_Histograms_SN/08_histograms.png}
+\caption{Histograms of the signal-to-background of several particles irradiated
+at $30\pwr$. a) Stokes emission under unstained cells, b) same but anti-Stokes
+emission, c) anti-Stokes under cells stained with \atto.}
+	\label{fig:histograms_SB}
+\end{figure}
 
+Figure \ref{fig:histograms_SB} shows the distribution of signal-to-background
+ratios for several particles. The data were acquired with an irradiation
+intensity of $30\pwr$. Fig. \ref{fig:histograms_SB}a shows the distribution for
+nanoparticles under unstained cells. It is possible to observe a broad
+distribution of values between ratios of $5$ and $15$. Fig.
+\ref{fig:histograms_SB}b shows the signal-to-background distribution for the
+anti-Stokes emission, concentrated mainly between $5$ and $10$. Finally Figure
+\ref{fig:histograms_SB}c shows the anti-Stokes signal-to-background ratio of
+particles under cells stained with \atto. In this case it is possible to observe
+a similar distribution of values. Stokes data under stained cells are not
+presented because it was impossible to detect single nanoparticles under those
+conditions. 
 
 \end{document}
