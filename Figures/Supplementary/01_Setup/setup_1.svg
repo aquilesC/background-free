@@ -73,7 +73,7 @@
        y1="223.31033"
        x2="704.6319"
        y2="277.40402"
-       gradientTransform="translate(-67.318611,16.522118)" />
+       gradientTransform="translate(-67.318609,16.522118)" />
     <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
@@ -513,6 +513,22 @@
            unicode="4" />
       </font>
     </defs>
+    <clipPath
+       id="clipPath3-6"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path15"
+         d="M 0,686 54,686 54,0 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath4-8"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path18"
+         d="M 54,0 0,0 0,686 Z" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -521,9 +537,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70629214"
-     inkscape:cx="469.06264"
-     inkscape:cy="68.191981"
+     inkscape:zoom="1.6933594"
+     inkscape:cx="330.54989"
+     inkscape:cy="218.62803"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1339,12 +1355,12 @@
      sodipodi:insensitive="true">
     <polygon
        id="polygon9186"
-       points="85.313,45.703 551.484,45.703 551.484,45.703 85.313,45.703 "
+       points="551.484,45.703 85.313,45.703 85.313,45.703 551.484,45.703 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.18319853,0,0,0.18319853,142.95644,108.23006)" />
     <polygon
        id="polygon9188"
-       points="85.313,542.344 85.313,542.344 85.313,45.703 85.313,45.703 "
+       points="85.313,45.703 85.313,45.703 85.313,542.344 85.313,542.344 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.18319853,0,0,0.18319853,142.95644,108.23006)" />
     <text
@@ -1826,19 +1842,44 @@
      inkscape:label="Scan"
      transform="translate(-7.5799537,-23.797688)"
      sodipodi:insensitive="true">
+    <g
+       id="g193"
+       style="font-style:normal;font-weight:normal;font-size:12px;font-family:Dialog;color-interpolation:sRGB;fill:#000000;fill-opacity:0;stroke:#000000;stroke-width:6.43494558;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;color-rendering:optimizeSpeed;image-rendering:optimizeSpeed;shape-rendering:crispEdges;text-rendering:optimizeSpeed"
+       transform="matrix(0.06119442,0,0,0.09865941,234.33832,28.022515)">
+      <image
+         clip-path="url(#clipPath3-6)"
+         id="image195"
+         preserveAspectRatio="none"
+         height="686"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAKuCAIAAABljXiNAAACvklEQVR42u3dUa0q URQFQSQgAQlIQAISkIAEHIyEkTASkIAEJCBhv+8nYCXr5FbSAspBn16nU3knRERE RMT/iVt9iIiIiIiIAeJeHyIiIiIiYoB41IeIiIiIuB7xXR8iIiIiImKA+KkPERER ERExQPzWh4iIiIiIGCD+6kNEREREXI849SEiIiIiIiaI5/YQERERERETxEt7iIiI iIgLEq/tISIiIiIiJoi39hARERERERPEe3uIiIiIiIgJ4qM9RERERMQFic/2EBER ERERE8RXe4iIiIiIiAni1h4iIiIi4oLEvT1ERERERMQE8WgPERERERExQXy3h4iI iIiImCB+2kNEREREXJD4bQ8RERERETFB/LWHiIiIiIiYIE57iIiIiIjrEX9zLg8R ERERETFA/M6lPERERERExADxM9fyEBERERERA8T33MpDRERERFyPeMy9PERERERE xABxn0d5iIiIiIiIAeI2z/IQEREREdcjvuZVHiIiIiIiYoD4nK08RERERETEAPEx e3mIiIiIiIgB4n2O8hARERER1yPe5l0eIiIiIiJigHidT3mIiIiIiIgB4mW+5SEi IiIiIgaI5/mVh4iIiIi4HtHJBxERERHxr07Y2kNERERERAwQv9MeIiIiIuJ6xM+0 h4iIiIiIGCC+pz1ERERERMQA8Zj2EBERERERA8R92kNEREREXI+4TXuIiIiIiIgB 4mvaQ0REREREDBCf0x4iIiIi4nrEx7SHiIiIiIgYIN6nPURERERExADxNu0hIiIi IiIGiNdpDxERERFxPeJl2kNERERERAwQz9MeIiIiIiJigHia+hARERER1yP+6kNE RERERAwQv/UhIiIiIiIGiJ/6EBERERERA8R3fYiIiIiI6xGP+hAREREREQPEvT5E RERERMQAcasPERERERHxDxL/AWrKP76ChNFbAAAAAElFTkSuQmCC"
+         width="54"
+         y="0"
+         x="0"
+         style="stroke-width:6.43494558" />
+      <image
+         clip-path="url(#clipPath4-8)"
+         id="image197"
+         preserveAspectRatio="none"
+         height="686"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAKuCAIAAABljXiNAAACvklEQVR42u3dUa0q URQFQSQgAQlIQAISkIAEHIyEkTASkIAEJCBhv+8nYCXr5FbSAspBn16nU3knRERE RMT/iVt9iIiIiIiIAeJeHyIiIiIiYoB41IeIiIiIuB7xXR8iIiIiImKA+KkPERER ERExQPzWh4iIiIiIGCD+6kNEREREXI849SEiIiIiIiaI5/YQERERERETxEt7iIiI iIgLEq/tISIiIiIiJoi39hARERERERPEe3uIiIiIiIgJ4qM9RERERMQFic/2EBER ERERE8RXe4iIiIiIiAni1h4iIiIi4oLEvT1ERERERMQE8WgPERERERExQXy3h4iI iIiImCB+2kNEREREXJD4bQ8RERERETFB/LWHiIiIiIiYIE57iIiIiIjrEX9zLg8R ERERETFA/M6lPERERERExADxM9fyEBERERERA8T33MpDRERERFyPeMy9PERERERE xABxn0d5iIiIiIiIAeI2z/IQEREREdcjvuZVHiIiIiIiYoD4nK08RERERETEAPEx e3mIiIiIiIgB4n2O8hARERER1yPe5l0eIiIiIiJigHidT3mIiIiIiIgB4mW+5SEi IiIiIgaI5/mVh4iIiIi4HtHJBxERERHxr07Y2kNERERERAwQv9MeIiIiIuJ6xM+0 h4iIiIiIGCC+pz1ERERERMQA8Zj2EBERERERA8R92kNEREREXI+4TXuIiIiIiIgB 4mvaQ0REREREDBCf0x4iIiIi4nrEx7SHiIiIiIgYIN6nPURERERExADxNu0hIiIi IiIGiNdpDxERERFxPeJl2kNERERERAwQz9MeIiIiIiJigHia+hARERER1yP+6kNE RERERAwQv/UhIiIiIiIGiJ/6EBERERERA8R3fYiIiIiI6xGP+hAREREREQPEvT5E RERERMQAcasPERERERHxDxL/AWrKP76ChNFbAAAAAElFTkSuQmCC"
+         width="54"
+         y="0"
+         x="0"
+         style="stroke-width:6.43494558" />
+    </g>
     <polygon
        id="polygon8089"
-       points="102.009,542.344 645.142,542.344 645.142,45.703 102.009,45.703 "
+       points="645.142,45.703 102.009,45.703 102.009,542.344 645.142,542.344 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <polygon
        id="polygon8091"
-       points="102.009,45.703 645.142,45.703 645.142,45.703 102.009,45.703 "
+       points="645.142,45.703 102.009,45.703 102.009,45.703 645.142,45.703 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <polygon
        id="polygon8093"
-       points="102.009,542.344 102.009,542.344 102.009,45.703 102.009,45.703 "
+       points="102.009,45.703 102.009,45.703 102.009,542.344 102.009,542.344 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <text
@@ -2096,18 +2137,13 @@
        id="polyline8241"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <polygon
-       id="polygon8247"
-       points="664.219,544.219 689.219,544.219 689.219,46.406 664.219,46.406 "
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
-    <polygon
        id="polygon8249"
-       points="664.219,46.406 689.219,46.406 689.219,46.406 664.219,46.406 "
+       points="689.219,46.406 664.219,46.406 664.219,46.406 689.219,46.406 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <polygon
        id="polygon8251"
-       points="664.219,544.219 664.219,544.219 664.219,46.406 664.219,46.406 "
+       points="664.219,46.406 664.219,46.406 664.219,544.219 664.219,544.219 "
        style="fill:#ffffff;fill-opacity:1;stroke:none"
        transform="matrix(0.1360481,0,0,0.1360481,143.8945,21.717305)" />
     <text
@@ -2118,16 +2154,6 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:Sans;-inkscape-font-specification:Sans;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000"
        transform="matrix(0,-1,1,0,0,0)"
        sodipodi:linespacing="125%">Counts/ms</text>
-    <image
-       sodipodi:absref="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\01_Setup\scan002.png"
-       xlink:href="scan002.png"
-       x="234.26024"
-       y="28.030762"
-       width="3.4012024"
-       height="67.726509"
-       preserveAspectRatio="none"
-       id="image8265"
-       style="image-rendering:optimizeSpeed" />
     <polyline
        style="fill:none;stroke:#000000;stroke-width:2.60445166;stroke-miterlimit:4;stroke-dasharray:none"
        points="664.219,544.219 689.219,544.219 "
