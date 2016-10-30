@@ -17,8 +17,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="uvvis.svg"
    inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\02_UV-Vis\uvvis.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-xdpi="1199.848"
+   inkscape:export-ydpi="1199.848">
   <defs
      id="defs4391">
     <defs
@@ -219,15 +219,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="232.54894"
+     inkscape:zoom="6.8445727"
+     inkscape:cx="207.63869"
      inkscape:cy="127.22955"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="3192"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -242,7 +242,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

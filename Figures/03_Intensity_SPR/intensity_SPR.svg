@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="80.664818mm"
@@ -16,11 +17,15 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="intensity_SPR.svg"
-   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\02_Intensity_SPR\Intensity_SPR.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\03_Intensity_SPR\Intensity_SPR.png"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs4">
+    <color-profile
+       name="sRGB-IEC61966-2.1"
+       xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
+       id="color-profile4600" />
     <defs
        id="defs1">
       <clipPath
@@ -627,16 +632,16 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.9687815"
-     inkscape:cx="113.48335"
-     inkscape:cy="60.744919"
+     inkscape:zoom="2.1423366"
+     inkscape:cx="55.059102"
+     inkscape:cy="20.780526"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -672,7 +677,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Aquiles Carattino</dc:title>
+          </cc:Agent>
+        </dc:creator>
       </cc:Work>
     </rdf:RDF>
   </metadata>

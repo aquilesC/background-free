@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="3_curves_final.svg"
-   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\04_3_Curves\3_curves_final.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\01_3_Curves\3_curves_final.png"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs4">
     <color-profile
@@ -234,15 +234,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-267.91888"
-     inkscape:cy="352.9633"
+     inkscape:zoom="1.7285156"
+     inkscape:cx="-61.279489"
+     inkscape:cy="218.93218"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1672"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
@@ -266,7 +266,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

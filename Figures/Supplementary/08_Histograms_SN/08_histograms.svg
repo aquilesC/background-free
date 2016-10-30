@@ -18,8 +18,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="08_histograms.svg"
    inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\08_Histograms_SN\08_histograms.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs4">
     <color-profile
@@ -699,16 +699,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1457031"
-     inkscape:cx="180.74921"
-     inkscape:cy="-72.2838"
+     inkscape:zoom="1.40033"
+     inkscape:cx="193.22095"
+     inkscape:cy="12.38803"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -741,7 +741,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

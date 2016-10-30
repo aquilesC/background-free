@@ -18,8 +18,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="full_no_dye.svg"
    inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\06_Full_scans\full_no_dye.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs4">
     <color-profile
@@ -629,16 +629,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="447.79918"
-     inkscape:cy="123.81086"
+     inkscape:zoom="0.86425781"
+     inkscape:cx="133.27734"
+     inkscape:cy="80.774052"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="true"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="657"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -661,7 +661,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="white_light_scale.svg"
-   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\02_White_Light\white_light_scale.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\05_White_Light\white_light_scale.png"
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs7876">
     <defs
@@ -49,9 +49,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="202.3471"
-     inkscape:cy="137.51128"
+     inkscape:zoom="1.7111432"
+     inkscape:cx="240.23316"
+     inkscape:cy="107.06194"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -72,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

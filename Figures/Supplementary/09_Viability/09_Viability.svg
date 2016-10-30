@@ -18,8 +18,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="09_Viability.svg"
    inkscape:export-filename="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\09_Viability\09_Viability.png"
-   inkscape:export-xdpi="600"
-   inkscape:export-ydpi="600">
+   inkscape:export-xdpi="1200"
+   inkscape:export-ydpi="1200">
   <defs
      id="defs4454">
     <color-profile
@@ -34,16 +34,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6202689"
-     inkscape:cx="331.27465"
-     inkscape:cy="44.150071"
+     inkscape:zoom="1.4003301"
+     inkscape:cx="182.22183"
+     inkscape:cy="16.592783"
      inkscape:document-units="mm"
      inkscape:current-layer="layer4"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
         <dc:creator>
           <cc:Agent>
             <dc:title>Aquiles Carattino</dc:title>
@@ -82,12 +82,12 @@
     <image
        sodipodi:absref="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\09_Viability\Background_Free.xlef_Series015_z0.tif"
        xlink:href="Background_Free.xlef_Series015_z0.tif"
-       width="188.76758"
-       height="188.76758"
-       preserveAspectRatio="none"
-       id="image5017"
+       y="0.45213875"
        x="-0.16751404"
-       y="0.45213875" />
+       id="image5017"
+       preserveAspectRatio="none"
+       height="188.76758"
+       width="188.76758" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -98,12 +98,12 @@
     <image
        sodipodi:absref="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\09_Viability\Background_Free.xlef_Series020_z0.tif"
        xlink:href="Background_Free.xlef_Series020_z0.tif"
-       width="188.76758"
-       height="188.76758"
-       preserveAspectRatio="none"
-       id="image5028"
+       y="0.45213875"
        x="215.98578"
-       y="0.45213875" />
+       id="image5028"
+       preserveAspectRatio="none"
+       height="188.76758"
+       width="188.76758" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -114,12 +114,12 @@
     <image
        sodipodi:absref="C:\Users\aquiles\Documents\background-free\Figures\Supplementary\09_Viability\Background_Free.xlef_Series054_z0.tif"
        xlink:href="Background_Free.xlef_Series054_z0.tif"
-       width="187.96651"
-       height="187.96651"
-       preserveAspectRatio="none"
-       id="image5050"
+       y="0.85267437"
        x="432.53961"
-       y="0.85267437" />
+       id="image5050"
+       preserveAspectRatio="none"
+       height="187.96651"
+       width="187.96651" />
   </g>
   <g
      inkscape:groupmode="layer"
